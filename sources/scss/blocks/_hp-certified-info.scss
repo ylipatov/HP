@@ -1,0 +1,41 @@
+.hp-certified-info {
+  padding-top: 170px;
+  
+  &__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__paws {
+    position: absolute;
+    top: 0;
+    right: 80px;
+  }
+  
+
+  &__title {
+    margin: 0;
+    color: $yellow;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    font-family: Heebo, sans-serif;
+    font-weight: 500;
+    color: $black-secondary;
+  }
+
+  &__text {
+    max-width: 820px;
+    color: $black-secondary;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 30px 0 50px 0;
+  }
+}

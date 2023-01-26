@@ -1,0 +1,123 @@
+@import "variables";
+
+.hp-footer {
+  padding: 130px 0 40px 0;
+  background-color: $black-primary;
+  color: $white;
+
+  &__wrap-content {
+    display: flex;
+  }
+
+  &__col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  &__col-auto {
+    flex-basis: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  &__desc {
+    max-width: 350px;
+    width: 100%;
+    padding-top: 40px;
+    margin: 0;
+    font-family: Heebo, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+
+  &__copyright {
+    padding-top: 90px;
+    font-family: Heebo, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    display: block;
+  }
+
+  &__sitemap-wrap {
+    position: relative;
+    max-width: 390px;
+
+    &:before {
+      content: '';
+      width: 1px;
+      height: 270px;
+      background-color: $green;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Heebo, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+
+  &__pages {
+    display: flex;
+    column-gap: 120px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+
+      a {
+        font-family: Heebo, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 34px;
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+
+  &__text {
+    font-family: Heebo, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 40px;
+  }
+
+  &__locations-wrap {
+    display: flex;
+    column-gap: 70px;
+  }
+
+  &__city {
+    font-size: 14px;
+    line-height: 34px;
+    font-weight: 500;
+    font-family: Heebo, sans-serif;
+    margin: 0;
+  }
+
+  &__socials {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  &__address {
+    font-size: 14px;
+    line-height: 34px;
+    font-weight: 300;
+    font-family: Heebo, sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+}

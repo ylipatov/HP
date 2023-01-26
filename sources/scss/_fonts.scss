@@ -1,0 +1,46 @@
+@import "variables";
+
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Heebo-Light.woff") format("woff"), url("../fonts/Heebo-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Heebo-Regular.woff") format("woff"), url("../fonts/Heebo-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Heebo-Medium.woff") format("woff"), url("../fonts/Heebo-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Futura";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+

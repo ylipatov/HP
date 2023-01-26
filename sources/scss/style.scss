@@ -1,0 +1,48 @@
+// Vendor
+@import "./../node_modules/swiper/swiper";
+
+// Bootstrap
+@import "bootstrap";
+
+// Variables
+@import "variables";
+@import "extend";
+
+// Utilities
+@import "reboot";
+@import "init";
+@import "spacing";
+//@import "spacing-rtl";
+@import "fonts";
+@import "colors";
+@import "font-options";
+@import "other-options";
+@import "header";
+@import "general";
+@import "footer";
+
+
+// Blocks
+@import "blocks/hp-header-prev";
+@import "blocks/hp-certified-info";
+@import "blocks/hp-our-puppies";
+@import "blocks/hp-our-guarantee";
+@import "blocks/hp-contact-quote-block";
+@import "blocks/hp-available-puppies";
+@import "blocks/hp-available-puppies-items";
+@import "blocks/hp-available-puppies-soon";
+@import "blocks/hp-incoming-puppies.html";
+@import "blocks/hp-filter-puppies";
+@import "blocks/hp-filter-puppies-alphabet";
+@import "blocks/hp-hero-slider-block";
+@import "blocks/hp-about-partners";
+@import "blocks/hp-items-group-block";
+@import "blocks/hp-visiting-hours";
+@import "blocks/hp-partners";
+
+
+
+// Elements
+@import "elements/button";
+@import "elements/dog-card-item";
+@import "elements/pagination";

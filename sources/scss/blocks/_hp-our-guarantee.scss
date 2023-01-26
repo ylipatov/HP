@@ -1,0 +1,99 @@
+.hp-our-guarantee {
+  padding: 100px 0;
+  
+  &__paws {
+    position: absolute;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -10;
+    top: -50px;
+    left: 80px;
+  }
+
+  &__title {
+    text-align: center;
+    color: $yellow;
+    margin: 0;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 8px;
+    color: $black-secondary;
+    font-family: Heebo, sans-serif;
+    font-weight: 500;
+  }
+
+  &__item-wrap {
+    display: flex;
+    padding-top: math-clamp(30, 70);
+    justify-content: center;
+    column-gap: 70px;
+  }
+
+  &__item {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 342px;
+  }
+
+  &__img {
+    max-width: 100%;
+    height: auto;
+    max-height: 230px;
+  
+    &_item-1,
+    &_item-2,
+    &_item-3,
+    &_item-4 {
+      mask-repeat: no-repeat;
+      mask-position: center;
+    }
+  
+    &_item-1 {
+      -webkit-mask-image: url(../img/mask-image-item1.svg);
+      mask-image: url("../img/mask-image-item1.svg");
+    }
+  
+  
+    &_item-2 {
+      -webkit-mask-image: url(../img/mask-image-item2.svg);
+      mask-image: url("../img/mask-image-item2.svg");
+    }
+  
+    &_item-3 {
+      -webkit-mask-image: url(../img/mask-image-item3.svg);
+      mask-image: url("../img/mask-image-item3.svg");
+    }
+
+  }
+
+  &__heading {
+    color: $green;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: $black-secondary;
+    text-align: center;
+    word-spacing: 1px;
+    margin: 0;
+    padding-top: 12px;
+  }
+  
+  &__btn {
+    text-align: center;
+    padding-top: math-clamp(50, 90);
+  }
+}

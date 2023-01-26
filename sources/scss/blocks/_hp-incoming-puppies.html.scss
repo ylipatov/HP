@@ -1,0 +1,72 @@
+.hp-incoming-puppies-block {
+    position: relative;
+    margin-top: -78px;
+    overflow: hidden;
+    padding-top: 105px;
+}
+
+.hp-incoming-puppies {
+    position: relative;
+    overflow: hidden;
+    padding-top: 105px;
+    
+    &__top-el {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+    
+    &__top-decor {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background-color: $yellow;
+        top: 78px;
+    
+        svg {
+            display: block;
+            position: absolute;
+            top: calc(100% - 5px);
+            left: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    &__bg-el {
+        position: absolute;
+        top: clamp(40.625rem,62.5vw,75rem);
+        //top: math-clamp(650, 1200);
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: calc(100% - 40px);
+        height: auto;
+        display: block;
+    }
+    
+    &__sections {
+        position: relative;
+        z-index: 50;
+        margin-bottom: math-clamp(50, 100);
+        
+        h2 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: math-clamp(30, 60);
+        }
+    }
+    
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 60px;
+        column-gap: 15px;
+        justify-content: center;
+    }
+}

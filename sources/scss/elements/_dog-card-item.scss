@@ -1,0 +1,58 @@
+.dog-card-item {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 260px;
+    background: $white;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    display: block;
+    transition: 0.3s all;
+    
+    &:hover {
+        text-decoration: none;
+        background: $yellow;
+        
+        .dog-card-item__breed-name {
+            color: $black-primary;
+        }
+        
+        .dog-card-item__breed-desc {
+            border: 1px solid #272727;
+            box-shadow: none;
+        }
+    }
+    
+    &__breed-name {
+        color: $green;
+        font-family: Futura, sans-serif;
+        font-weight: 500;
+        text-align: center;
+        font-size: 24px;
+        line-height: 18px;
+        padding-top: 8px;
+        display: block;
+        transition: 0.3s all;
+    }
+    
+    &__breed-desc {
+        text-align: center;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+        border: 1px solid transparent;
+        border-radius: 12px;
+        margin-top: 10px;
+        padding: 8px 0 14px 0;
+        display: block;
+        transition: 0.3s all;
+    
+        span {
+            margin: 0;
+            font-family: Futura, sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            display: block;
+            color: $black-primary;
+        }
+    }
+}
